@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "title": "ኪሩቤል ቶሎሳ | ሴኒየር .NET / ፉል-ስታክ ኢንጂነር",
+    "description": "ሴኒየር በጀርባ-ኢንጂነሪንግ የተለያዩ የክላውድ እና የተበተኑ ሲስተሞች ላይ ትልቅ ልምድ።"
+  },
+  "nav": [
+    { "id": "about", "label": "ስለ እኔ" },
+    { "id": "skills", "label": "ክህሎቶች" },
+    { "id": "experience", "label": "ልምድ" },
+    { "id": "projects", "label": "ፕሮጀክቶች" },
+    { "id": "education", "label": "ትምህርት" },
+    { "id": "contact", "label": "እንገናኝ" }
+  ],
+  "basics": {
+    "name": "Kirubel Tolosa",
+    "headline": "Senior .NET / Full-Stack Engineer",
+    "location": "Upper Marlboro, MD",
+    "email": "kirubel.n.tolosa@gmail.com",
+    "phone": "202-579-9378",
+    "linkedin": "https://linkedin.com/in/kirubeltolosa",
+    "github": "https://github.com/your-handle",
+    "resumeFile": "KirubelTolosa_Resume_Jan2026.pdf"
+  },
+  "hero": {
+    "title": "ሴኒየር በጀርባ-ተመራ ፉል-ስታክ ኢንጂነር",
+    "summary": "9+ ዓመት ልምድ ያለው የክላውድ እና የተበተኑ ሲስተሞች አቅራቢ። (ትርጉም በሂደት)",
+    "ctaPrimary": "ሪዙመ አውርድ",
+    "ctaSecondary": "እንገናኝ",
+    "stats": [
+      { "label": "ዓመት ልምድ", "value": "9+" },
+      { "label": "Microservices", "value": "12+" },
+      { "label": "Systems Supported", "value": "20+" }
+    ],
+    "code": [
+      "const platform = build({",
+      "  focus: ['.NET', 'Cloud', 'AI'],",
+      "  patterns: ['microservices', 'event-driven', 'secure'],",
+      "  results: 'fast, reliable delivery'",
+      "})",
+      "",
+      "deploy(platform).on('azure', 'aws')"
+    ]
+  },
+  "about": {
+    "title": "ስለ እኔ",
+    "body": [
+      "ተረጋጋ የመስመር ስርዓቶችን ማቋቋም እና ለመጠን ማስቻል ላይ እተኩራለሁ።",
+      "LLM እና RAG ያሉ የAI ቴክኖሎጂዎችን ከደህንነት እና ከአፈፃፀም ጋር እጣራለሁ።"
+    ]
+  },
+  "skills": {
+    "title": "ክህሎቶች",
+    "groups": [
+      {
+        "name": "Languages",
+        "items": ["C#", "JavaScript", "TypeScript", "Python", "SQL", "Java", "R"]
+      },
+      {
+        "name": "Backend",
+        "items": [".NET Core", "ASP.NET", "Entity Framework Core", "MEF", "Spring Boot", "Distributed Background Services"]
+      },
+      {
+        "name": "Frontend",
+        "items": ["Angular", "React", "Redux", "Hooks-based Components", "Tailwind CSS", "Bootstrap", "Responsive SPA Development"]
+      },
+      {
+        "name": "Cloud (Azure)",
+        "items": ["Functions", "Durable Entities", "Logic Apps", "Service Bus", "Event Hubs", "Event Grid", "Cosmos DB", "Cognitive Search", "Blob Storage", "CDN", "App Configuration", "APIM", "Key Vault", "App Insights"]
+      },
+      {
+        "name": "Cloud (AWS)",
+        "items": ["EC2", "S3", "IAM", "Lambda", "EKS", "CloudFront"]
+      },
+      {
+        "name": "DevOps",
+        "items": ["Docker", "Kubernetes", "Terraform", "GitHub Actions", "Azure Pipelines", "CI/CD", "Observability & Monitoring"]
+      },
+      {
+        "name": "AI & Distributed Systems",
+        "items": ["LLM APIs", "RAG", "Embeddings", "Agent Orchestration", "Decision Trees", "Federated Learning", "3D/VR Data Visualization"]
+      }
+    ]
+  },
+  "experience": {
+    "title": "ልምድ",
+    "items": [
+      {
+        "company": "Halliburton",
+        "role": "Senior Software Engineer",
+        "location": "Houston, TX",
+        "dates": "Dec 2022 – Present",
+        "bullets": [
+          "12 የተለያዩ .NET Core microservices ማቋቋም እና Kubernetes ላይ ማስተናገድ።",
+          "20+ አፕሊኬሽን ሰርቨሮች የሚያንቀሳቀስ ሞኒተሪንግ እና ማገገሚያ ስርዓት መገንባት።",
+          "MEF + MongoDB + EF Core ላይ የተመሰረተ ሞጁላር አርኪቴክቸር።"
+        ],
+        "stack": [".NET Core", "Angular", "SQL Server", "MongoDB", "Docker", "Kubernetes", "Azure DevOps"]
+      },
+      {
+        "company": "Paycor",
+        "role": "Software Engineer",
+        "location": "Cincinnati, OH",
+        "dates": "Jun 2021 – Dec 2022",
+        "bullets": [
+          "Time-off እና accrual ሂደቶች የሚደግፉ የData Services ማይክሮሰርቪሶች ማቋቋም።",
+          "የbatch ሂደት ጊዜን ከሰዓታት ወደ በታች 10 ሰከንድ መቀነስ።",
+          "MSTest + Moq የተጠቃሚ ቴስት ሱይቶች ማገናኘት።"
+        ],
+        "stack": [".NET Core", "React", "Cosmos DB", "Snowflake", "Azure Functions", "Event Grid", "Key Vault", "App Insights"]
+      },
+      {
+        "company": "Newwave (OnyxHealth)",
+        "role": "Software Engineer",
+        "location": "Elkridge, MD",
+        "dates": "Jul 2020 – Jun 2021",
+        "bullets": [
+          "100K+ ሰነዶች የሚያስነብብ የAI የፈለግ ሲስተም መገንባት።",
+          "SQL Server + ASP.NET MVC መሰረት ያለው መሠረታዊ አርኪቴክቸር።",
+          "Azure Functions እና App Configuration በመጠቀም ነፃ ማስተካከያ ፍሰቶች ማቋቋም።"
+        ],
+        "stack": [".NET Core", "Django", "JavaScript", "Bootstrap", "SQL Server", "Azure Cognitive Services", "Blob Storage", "App Services"]
+      },
+      {
+        "company": "UMBC",
+        "role": "Research Assistant – Distributed Systems & AI",
+        "location": "Baltimore, MD",
+        "dates": "Nov 2019 – Jan 2021",
+        "bullets": [
+          "Time-series ዳታ ማቀናበር እና መለያየት ፓይፕላይኖች።",
+          "EEG ምርመራ እና ማስተካከያ ስራዎች።",
+          "Unreal Engine በመጠቀም 3D/VR ቪዥዋላይዜሽን ሞጁሎች።"
+        ],
+        "stack": ["Unreal Engine (C++)", "R", "Python", "SQL Server", "ASP.NET MVC", "JavaScript", "HTML/CSS", "CouchDB"]
+      },
+      {
+        "company": "Zemen Solution",
+        "role": "Software Developer",
+        "location": "Addis Ababa, Ethiopia",
+        "dates": "Sep 2015 – Aug 2019",
+        "bullets": [
+          "REST APIs እና ASP.NET MVC መተግበሪያዎች መገንባት።",
+          "SQL Server/PLSQL ዳታቤዝ እና ኦፕቲማይዜሽን።",
+          "React SPA እና UI ማሻሻል።"
+        ],
+        "stack": ["C#", "ASP.NET MVC", "React", "SQL Server", "PL/SQL", "MSTest"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "ተለይተው የታዩ ስራዎች",
+    "items": [
+      {
+        "name": "Microservices Platform Modernization",
+        "description": "ሞኖሊትን ወደ Kubernetes ላይ የሚሰሩ .NET ማይክሮሰርቪሶች መቀየር።",
+        "stack": [".NET Core", "Docker", "Kubernetes", "Azure DevOps"]
+      },
+      {
+        "name": "Time Off Rules & Accrual Engine",
+        "description": "ከፍተኛ ጭነት ያላቸውን ስርዓቶች ለመቆጣጠር የህጎች ሞጁል ማቋቋም።",
+        "stack": [".NET Core", "Azure Durable Entities", "Snowflake", "React"]
+      },
+      {
+        "name": "Knowledge Mining & AI Search",
+        "description": "100K+ ሰነዶች የሚያስነብብ የAI ፈለግ ስርዓት።",
+        "stack": ["Azure Cognitive Search", "Azure Functions", "SQL Server"]
+      },
+      {
+        "name": "Distributed Systems & AI Research Tooling",
+        "description": "በምርምር ስራዎች የሚያገለግሉ ዳታ ፓይፕላይኖች እና ቪዥዋላይዜሽን።",
+        "stack": ["Python", "R", "Unreal Engine", "CouchDB"]
+      }
+    ]
+  },
+  "education": {
+    "title": "ትምህርት",
+    "items": [
+      {
+        "degree": "M.S. Computer Science",
+        "focus": "Distributed Systems, AI, Systems Design",
+        "school": "University of Maryland, Baltimore County (UMBC)",
+        "date": "May 2021"
+      },
+      {
+        "degree": "B.Sc. Computer Science",
+        "focus": "",
+        "school": "Addis Ababa University",
+        "date": "Feb 2016"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Microsoft Certified: Azure Developer",
+        "date": "Issued Feb 2021",
+        "id": "H680-7270"
+      }
+    ],
+    "awards": [
+      {
+        "name": "USM COVID App Innovation Challenge",
+        "date": "Jul 2020",
+        "detail": "Built symptom tracking APIs and follow-up COVID patient monitoring application."
+      }
+    ]
+  },
+  "contact": {
+    "title": "እንገናኝ",
+    "blurb": "ከፍተኛ የጀርባ ወይም ፉል-ስታክ ሚናዎችን ለመወዳደር ክፍት ነኝ።",
+    "emailLabel": "ኢሜይል",
+    "linkedinLabel": "LinkedIn",
+    "githubLabel": "GitHub (placeholder)"
+  },
+  "footer": {
+    "text": "React + Tailwind CSS ተጠቅመን ተገንብቷል።"
+  }
+}
+

@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "title": "Kirubel Tolosa | Senior .NET / Full-Stack Engineer",
+    "description": "Senior backend-focused Full Stack Engineer specializing in cloud-native, distributed, and secure systems across Azure and AWS."
+  },
+  "nav": [
+    { "id": "about", "label": "About" },
+    { "id": "skills", "label": "Skills" },
+    { "id": "experience", "label": "Experience" },
+    { "id": "projects", "label": "Projects" },
+    { "id": "education", "label": "Education" },
+    { "id": "contact", "label": "Contact" }
+  ],
+  "basics": {
+    "name": "Kirubel Tolosa",
+    "headline": "Senior .NET / Full-Stack Engineer",
+    "location": "Upper Marlboro, MD",
+    "email": "kirubel.n.tolosa@gmail.com",
+    "phone": "202-579-9378",
+    "linkedin": "https://linkedin.com/in/kirubeltolosa",
+    "github": "https://github.com/your-handle",
+    "resumeFile": "KirubelTolosa_Resume_Jan2026.pdf"
+  },
+  "hero": {
+    "title": "Senior backend-focused Full Stack Engineer",
+    "summary": "9+ years delivering cloud-native, distributed, secure, and AI-aware systems across Azure and AWS. Deep expertise in .NET, microservices, event-driven architecture, high-throughput data processing, and API security.",
+    "ctaPrimary": "Download Resume",
+    "ctaSecondary": "Contact",
+    "stats": [
+      { "label": "Years Experience", "value": "9+" },
+      { "label": "Microservices", "value": "12+" },
+      { "label": "Systems Supported", "value": "20+" }
+    ],
+    "code": [
+      "const platform = build({",
+      "  focus: ['.NET', 'Cloud', 'AI'],",
+      "  patterns: ['microservices', 'event-driven', 'secure'],",
+      "  results: 'fast, reliable delivery'",
+      "})",
+      "",
+      "deploy(platform).on('azure', 'aws')"
+    ]
+  },
+  "about": {
+    "title": "About",
+    "body": [
+      "I build resilient platforms that modernize legacy systems, scale cloud workloads, and keep latency low and reliability high. My work spans architecture, backend systems, and full-stack delivery.",
+      "I enjoy designing intelligent systems with LLM integration, RAG retrieval, embeddings, and automation, while keeping security, observability, and performance at the core."
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "groups": [
+      {
+        "name": "Languages",
+        "items": ["C#", "JavaScript", "TypeScript", "Python", "SQL", "Java", "R"]
+      },
+      {
+        "name": "Backend",
+        "items": [".NET Core", "ASP.NET", "Entity Framework Core", "MEF", "Spring Boot", "Distributed Background Services"]
+      },
+      {
+        "name": "Frontend",
+        "items": ["Angular", "React", "Redux", "Hooks-based Components", "Tailwind CSS", "Bootstrap", "Responsive SPA Development"]
+      },
+      {
+        "name": "Cloud (Azure)",
+        "items": ["Functions", "Durable Entities", "Logic Apps", "Service Bus", "Event Hubs", "Event Grid", "Cosmos DB", "Cognitive Search", "Blob Storage", "CDN", "App Configuration", "APIM", "Key Vault", "App Insights"]
+      },
+      {
+        "name": "Cloud (AWS)",
+        "items": ["EC2", "S3", "IAM", "Lambda", "EKS", "CloudFront"]
+      },
+      {
+        "name": "DevOps",
+        "items": ["Docker", "Kubernetes", "Terraform", "GitHub Actions", "Azure Pipelines", "CI/CD", "Observability & Monitoring"]
+      },
+      {
+        "name": "AI & Distributed Systems",
+        "items": ["LLM APIs", "RAG", "Embeddings", "Agent Orchestration", "Decision Trees", "Federated Learning", "3D/VR Data Visualization"]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "company": "Halliburton",
+        "role": "Senior Software Engineer",
+        "location": "Houston, TX",
+        "dates": "Dec 2022 – Present",
+        "bullets": [
+          "Modernized a monolith into 12 independently scalable .NET Core microservices on Kubernetes, cutting deploy cycles from ~1 hour to under 5 minutes per service.",
+          "Built a distributed Windows background monitoring and automated recovery service supporting 20+ application servers, significantly reducing downtime.",
+          "Designed a modular, plugin-driven backend architecture using MEF + MongoDB + EF Core to speed domain module delivery.",
+          "Delivered 5+ production Angular apps and REST APIs for telemetry, equipment initialization, and operational reporting.",
+          "Implemented containerization, health checks, load balancing, and automated deployment patterns.",
+          "Mentored junior engineers on clean coding, unit testing, microservice design, and pipeline practices."
+        ],
+        "stack": [".NET Core", "Angular", "SQL Server", "MongoDB", "Docker", "Kubernetes", "Azure DevOps"]
+      },
+      {
+        "company": "Paycor",
+        "role": "Software Engineer",
+        "location": "Cincinnati, OH",
+        "dates": "Jun 2021 – Dec 2022",
+        "bullets": [
+          "Built a Data Services .NET Core microservice for accrual, rollover, proration, and payout calculations; integrated into APIM with attribute-based filters.",
+          "Reduced batch processing time from hours to under 10 seconds by redesigning workflows with Azure Durable Entities and optimizing Java background processors.",
+          "Delivered Time Off Rules APIs with automated unit/integration test suites (MSTest + Moq), reducing regressions.",
+          "Implemented UI + server-side features for Rollover-to-Types, Expire Rollover, Proration, and Payout/Earning configurations.",
+          "Built Snowflake employee mapping and company-scoped preload pipelines for high-volume ingestion.",
+          "Refactored Accrual UI into modern Angular/React reusable components and resolved IDOR vulnerabilities."
+        ],
+        "stack": [".NET Core", "React", "Cosmos DB", "Snowflake", "Azure Functions", "Event Grid", "Key Vault", "App Insights"]
+      },
+      {
+        "company": "Newwave (OnyxHealth)",
+        "role": "Software Engineer",
+        "location": "Elkridge, MD",
+        "dates": "Jul 2020 – Jun 2021",
+        "bullets": [
+          "Built a Knowledge Mining & AI search MVP using Azure Cognitive Search, processing 100K+ unstructured healthcare and HCM records.",
+          "Designed backend architecture with SQL Server + ASP.NET MVC for imaging-center workflows and indexed data access.",
+          "Integrated Azure Logic Apps for email analysis and automated recording into SQL databases.",
+          "Extended Azure Function Apps for cognitive enrichment, classification, and vector embedding integration.",
+          "Implemented Azure AD authentication and authorization for MVC search UI applications.",
+          "Built white-label UI configuration flows using Azure App Configuration and delivered CI/CD pipelines."
+        ],
+        "stack": [".NET Core", "Django", "JavaScript", "Bootstrap", "SQL Server", "Azure Cognitive Services", "Blob Storage", "App Services"]
+      },
+      {
+        "company": "UMBC",
+        "role": "Research Assistant – Distributed Systems & AI",
+        "location": "Baltimore, MD",
+        "dates": "Nov 2019 – Jan 2021",
+        "bullets": [
+          "Built time-series data pipelines for wrangling, decomposition, filtering, and feature engineering in R and Python.",
+          "Developed EEG signal analysis and modeling pipelines for temporal neural decision validation.",
+          "Designed SQL Server relational databases for ASP.NET MVC imaging center web applications.",
+          "Built 3D/VR data visualization modules using Unreal Engine (C++), CouchDB APIs, and geospatial data layers.",
+          "Delivered GIS story map applications combining R, Python, JavaScript, and relational data layers."
+        ],
+        "stack": ["Unreal Engine (C++)", "R", "Python", "SQL Server", "ASP.NET MVC", "JavaScript", "HTML/CSS", "CouchDB"]
+      },
+      {
+        "company": "Zemen Solution",
+        "role": "Software Developer",
+        "location": "Addis Ababa, Ethiopia",
+        "dates": "Sep 2015 – Aug 2019",
+        "bullets": [
+          "Built high-throughput REST APIs and ASP.NET MVC applications for transactional enterprise systems.",
+          "Designed SQL Server and PL/SQL databases, stored procedures, indexes, and performance optimizations.",
+          "Delivered JavaScript and React SPAs with responsive UI and AJAX integration.",
+          "Wrote 100+ unit and integration tests using MSTest to improve release reliability."
+        ],
+        "stack": ["C#", "ASP.NET MVC", "React", "SQL Server", "PL/SQL", "MSTest"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured Work",
+    "items": [
+      {
+        "name": "Microservices Platform Modernization",
+        "description": "Re-architected a monolith into Kubernetes-hosted .NET microservices with automated CI/CD and resilient background monitoring.",
+        "stack": [".NET Core", "Docker", "Kubernetes", "Azure DevOps"]
+      },
+      {
+        "name": "Time Off Rules & Accrual Engine",
+        "description": "Built high-volume accrual and rules services with APIM integration, durable workflows, and optimized batch processing.",
+        "stack": [".NET Core", "Azure Durable Entities", "Snowflake", "React"]
+      },
+      {
+        "name": "Knowledge Mining & AI Search",
+        "description": "Delivered an AI-powered search MVP that processed 100K+ unstructured records with custom enrichment and vector capabilities.",
+        "stack": ["Azure Cognitive Search", "Azure Functions", "SQL Server"]
+      },
+      {
+        "name": "Distributed Systems & AI Research Tooling",
+        "description": "Built data pipelines, EEG modeling, and 3D/VR visualization modules supporting academic research initiatives.",
+        "stack": ["Python", "R", "Unreal Engine", "CouchDB"]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "degree": "M.S. Computer Science",
+        "focus": "Distributed Systems, AI, Systems Design",
+        "school": "University of Maryland, Baltimore County (UMBC)",
+        "date": "May 2021"
+      },
+      {
+        "degree": "B.Sc. Computer Science",
+        "focus": "",
+        "school": "Addis Ababa University",
+        "date": "Feb 2016"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Microsoft Certified: Azure Developer",
+        "date": "Issued Feb 2021",
+        "id": "H680-7270"
+      }
+    ],
+    "awards": [
+      {
+        "name": "USM COVID App Innovation Challenge",
+        "date": "Jul 2020",
+        "detail": "Built symptom tracking APIs and follow-up COVID patient monitoring application."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "blurb": "Open to senior backend and full-stack roles, consulting, and platform modernization engagements.",
+    "emailLabel": "Email",
+    "linkedinLabel": "LinkedIn",
+    "githubLabel": "GitHub (placeholder)"
+  },
+  "footer": {
+    "text": "Built with React + Tailwind CSS."
+  }
+}
+
