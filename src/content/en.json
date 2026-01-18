@@ -208,8 +208,7 @@
     "title": "Contact",
     "blurb": "Open to senior backend and full-stack roles, consulting, and platform modernization engagements.",
     "emailLabel": "Email",
-    "linkedinLabel": "LinkedIn",
-    "githubLabel": "GitHub (placeholder)"
+    "linkedinLabel": "LinkedIn"
   },
   "footer": {
     "text": "Built with React + Tailwind CSS."
