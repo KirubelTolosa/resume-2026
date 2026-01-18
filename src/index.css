@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --color-bg: #f8fafc;
+  --color-panel: #ffffff;
+  --color-text: #0f172a;
+  --color-muted: #475569;
+  --color-border: rgba(15, 23, 42, 0.12);
+  --color-accent: #0ea5e9;
+  --color-accent-2: #7c3aed;
+  --color-code: #111827;
+}
+
+html.dark {
+  color-scheme: dark;
+  --color-bg: #0b1020;
+  --color-panel: #0f172a;
+  --color-text: #e2e8f0;
+  --color-muted: #94a3b8;
+  --color-border: rgba(148, 163, 184, 0.2);
+  --color-accent: #22d3ee;
+  --color-accent-2: #a78bfa;
+  --color-code: #e2e8f0;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+.bg-grid {
+  background-image: radial-gradient(circle at 1px 1px, rgba(148, 163, 184, 0.12) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.bg-noise {
+  background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.04) 50%, transparent 100%);
+}
+
+.terminal-ring {
+  box-shadow: 0 0 0 1px var(--color-border), inset 0 0 0 1px rgba(255, 255, 255, 0.02);
+}
