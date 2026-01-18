@@ -17,12 +17,11 @@ npm run dev
 
 ## Content Editing
 
-All copy is driven from the JSON files:
+All copy is driven from the JSON file:
 
 - `src/content/en.json` — primary content
-- `src/content/am.json` — secondary language (structure must match)
 
-Update basics (name, email, resume file), sections, and skills in these files. The UI renders exclusively from the JSON, so language switching is just swapping files.
+Update basics (name, email, resume file), sections, and skills in this file.
 
 ## Resume PDF
 

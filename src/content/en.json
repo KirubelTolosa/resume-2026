@@ -4,11 +4,11 @@
     "description": "Senior backend-focused Full Stack Engineer specializing in cloud-native, distributed, and secure systems across Azure and AWS."
   },
   "nav": [
-    { "id": "about", "label": "About" },
-    { "id": "skills", "label": "Skills" },
     { "id": "experience", "label": "Experience" },
     { "id": "projects", "label": "Projects" },
+    { "id": "skills", "label": "Skills" },
     { "id": "education", "label": "Education" },
+    { "id": "credentials", "label": "Credentials" },
     { "id": "contact", "label": "Contact" }
   ],
   "basics": {
@@ -23,13 +23,13 @@
   },
   "hero": {
     "title": "Senior backend-focused Full Stack Engineer",
-    "summary": "9+ years delivering cloud-native, distributed, secure, and AI-aware systems across Azure and AWS. Deep expertise in .NET, microservices, event-driven architecture, high-throughput data processing, and API security.",
+    "summary": "9+ years building secure, cloud-native distributed systems on Azure and AWS. Deep .NET expertise across microservices, event-driven architecture, high-throughput data processing, and API security, with experience integrating AI-enabled capabilities.",
     "ctaPrimary": "Download Resume",
     "ctaSecondary": "Contact",
     "stats": [
-      { "label": "Years Experience", "value": "9+" },
-      { "label": "Microservices", "value": "12+" },
-      { "label": "Systems Supported", "value": "20+" }
+      { "label": "Backend", "value": ".NET Core, ASP.NET, C#, SQL Server, MongoDB" },
+      { "label": "Frontend", "value": "React, Angular, TypeScript, Tailwind CSS" },
+      { "label": "Cloud", "value": "Azure, AWS, Kubernetes, Docker" }
     ],
     "code": [
       "const platform = build({",
@@ -41,13 +41,7 @@
       "deploy(platform).on('azure', 'aws')"
     ]
   },
-  "about": {
-    "title": "About",
-    "body": [
-      "I build resilient platforms that modernize legacy systems, scale cloud workloads, and keep latency low and reliability high. My work spans architecture, backend systems, and full-stack delivery.",
-      "I enjoy designing intelligent systems with LLM integration, RAG retrieval, embeddings, and automation, while keeping security, observability, and performance at the core."
-    ]
-  },
+ 
   "skills": {
     "title": "Skills",
     "groups": [
@@ -64,20 +58,16 @@
         "items": ["Angular", "React", "Redux", "Hooks-based Components", "Tailwind CSS", "Bootstrap", "Responsive SPA Development"]
       },
       {
-        "name": "Cloud (Azure)",
-        "items": ["Functions", "Durable Entities", "Logic Apps", "Service Bus", "Event Hubs", "Event Grid", "Cosmos DB", "Cognitive Search", "Blob Storage", "CDN", "App Configuration", "APIM", "Key Vault", "App Insights"]
-      },
-      {
-        "name": "Cloud (AWS)",
-        "items": ["EC2", "S3", "IAM", "Lambda", "EKS", "CloudFront"]
+        "name": "Cloud (Azure + AWS)",
+        "items": ["Azure Functions", "Durable Entities", "Logic Apps", "Service Bus", "Event Hubs", "Event Grid", "Cosmos DB", "Cognitive Search", "Blob Storage", "CDN", "App Configuration", "APIM", "Key Vault", "App Insights", "EC2", "S3", "IAM", "Lambda", "EKS", "CloudFront"]
       },
       {
         "name": "DevOps",
-        "items": ["Docker", "Kubernetes", "Terraform", "GitHub Actions", "Azure Pipelines", "CI/CD", "Observability & Monitoring"]
+        "items": ["Docker", "Kubernetes", "Terraform", "GitHub Actions", "Azure Pipelines", "CI/CD", "Observability & Monitoring", "Grafana"]
       },
       {
         "name": "AI & Distributed Systems",
-        "items": ["LLM APIs", "RAG", "Embeddings", "Agent Orchestration", "Decision Trees", "Federated Learning", "3D/VR Data Visualization"]
+        "items": ["Agentic Systems", "Claude", "Cursor", "Federated Learning", "3D/VR Data Visualization"]
       }
     ]
   },
@@ -120,7 +110,7 @@
         "location": "Elkridge, MD",
         "dates": "Jul 2020 – Jun 2021",
         "bullets": [
-          "Built a Knowledge Mining & AI search MVP using Azure Cognitive Search, processing 100K+ unstructured healthcare and HCM records.",
+          "Built a Knowledge Mining & AI search service using Azure Cognitive Search, processing 10M+ unstructured healthcare data.",
           "Designed backend architecture with SQL Server + ASP.NET MVC for imaging-center workflows and indexed data access.",
           "Integrated Azure Logic Apps for email analysis and automated recording into SQL databases.",
           "Extended Azure Function Apps for cognitive enrichment, classification, and vector embedding integration.",
@@ -187,13 +177,13 @@
     "title": "Education",
     "items": [
       {
-        "degree": "M.S. Computer Science",
+        "degree": "M.S. Information Systems",
         "focus": "Distributed Systems, AI, Systems Design",
         "school": "University of Maryland, Baltimore County (UMBC)",
         "date": "May 2021"
       },
       {
-        "degree": "B.Sc. Computer Science",
+        "degree": "B.Sc. Computer Science",        
         "focus": "",
         "school": "Addis Ababa University",
         "date": "Feb 2016"
